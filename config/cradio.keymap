@@ -4,6 +4,7 @@
 /* activate bluetooth */
 #define CONFIG_WIRELESS
 
+#define HOST_OS 2
+
 /* source the main keymap */
 #include "base_cradio.keymap"
-
