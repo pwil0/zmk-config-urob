@@ -182,7 +182,7 @@ ZMK_MOD_MORPH(bs_del,
 // tap: copy | double-tap: cut
 ZMK_TAP_DANCE(copy_cut,
     tapping-term-ms = <200>;
-    bindings = <&kp LGUI(C)>, <&kp LGUI(X)>;
+    bindings = <&kp LG(C)>, <&kp LG(X)>;
 )
 
 // Windows sleep key
