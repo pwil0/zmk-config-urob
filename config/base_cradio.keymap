@@ -73,6 +73,8 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
 
 /* Combos, leader key sequences, mouse emulation */
 
+#include "my_combos.dtsi"
+#include "mouse.dtsi"
 #include "extra_keys.h"
 
 /* Nav cluster */
