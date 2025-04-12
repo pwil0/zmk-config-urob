@@ -130,6 +130,13 @@ ZMK_TAP_DANCE(num_dance,
     bindings = <&num_word NUM>, <&sl NUM>;  // reverse this for sticky-num on single tap
 )
 
+// smart-mouse, requires PR #1366
+ZMK_TRI_STATE(smart_mouse,
+    bindings = <&tog MOUSE>, <&none>, <&tog MOUSE>;
+    ignored-key-positions = <LT1 LT3 RT0 RT1 RT2 RT3 RT4 RM1 RM2 RM3 RB1 RB2 RB3 RH0 RH1>;
+    ignored-layers = <MOUSE>;
+)
+
 /* Custom behaviors */
 
 // Alt+Tab swapper, requires PR #1366
